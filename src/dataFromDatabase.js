@@ -1,0 +1,1 @@
+export const StoreProductsFromDatabase =()=> {    return fetch('http://localhost:8080/product/all').then(response => response.json())};
